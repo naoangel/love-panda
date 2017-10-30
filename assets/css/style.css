@@ -1,0 +1,106 @@
+
+
+*{
+margin:0;
+padding:0;
+font-family: 'Raleway', sans-serif;	
+}
+
+
+
+
+
+.container{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 14px;
+	padding-right: 14px;
+}
+
+
+
+
+
+/*primera sección*/
+
+header{
+	background-color: #13954E;
+	color: #FFF;
+    font-weight: 400;
+    position:fixed;
+    width: 100%;
+    z-index: 100; /*indica que esta capa 
+                  está más arriba que las siguientes en este caso 100 capas*/
+}
+
+header .container{
+	text-align: right;
+}
+
+header .container p{
+	padding-bottom: 1em;
+}
+
+
+
+
+
+/*Segunda sección*/
+         
+
+.portada{       
+background-image: url(../img/one.jpg);
+background-size:cover;
+background-position: center; /*alinea las imagenes cover*/
+height: 100vh; /*VH es referente a altura de la sección, es como un equivalente al % de width*/
+filter: grayscale(100%); /* funciona para desaturar las imagenes, investigar mas propiedades de filter*/
+}
+
+
+/*tercera sección*/
+
+.third{
+	background-color: #444546;
+	height: 100vh;
+	text-align: center;
+}
+
+.third .about-pandas{
+	width: 550px;
+	padding: 1.25em;
+	margin: 0 auto;
+	top: 12em;
+    position: relative;
+    background-color: #13954e;
+    color: #FFF;
+}
+
+
+.about-pandas h3{
+	padding: 3em 0 1em 0;
+
+}
+
+
+/*Cuarta sección*/
+
+.portada2{
+	background-image: url(../img/two.jpg);
+}
+	
+
+
+
+
+/* 5ta sección*/
+
+footer{
+	background-color: #13954e;
+	color:#FFF;
+	padding: 1em 1em;
+	text-align: center;
+	font-weight: 700;
+
+}
+
